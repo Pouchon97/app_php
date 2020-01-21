@@ -9,9 +9,10 @@ elseif($age_personne>=13 and $age_personne<=17){
     echo("$age_personne ans désolé car Vous être  mineur");
 }
 elseif($age_personne>=18 and $age_personne<=54){
+    echo(" $age_personne ans ah oui, Vous être  majeur");
 }
 elseif($age_personne>=55){
-    echo(" $age_personne ans ah oui, Vous être  majeur");
+    echo(" $age_personne ans ,là vous être agée");
 }
 
 ?>
