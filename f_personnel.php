@@ -71,6 +71,7 @@
         </thead>
         <tbody style="background:#d27f07;">
                     <?php
+            // voici la partir du recherche par position dans le tableau $_SESSION['personnel']. //
                     if(isset($_SESSION['Personnel'])){
                         if(!empty($_SESSION['Personnel'])){
                         if(isset($_GET['Recherche'])){
@@ -113,6 +114,7 @@
         </thead>
         <tbody style="">
             <?php
+            // partir permetant de parcourir le tableau $_SESSION['personnel']//
             if(isset($_SESSION['Personnel'])){
                 if(!empty($_SESSION['Personnel'])){
             foreach($_SESSION['Personnel'] as $t){
