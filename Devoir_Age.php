@@ -1,5 +1,5 @@
 <?php
-$age_personne=Readline("Entrez votre age :");
+$age_personne=Readline("Entrez votre age SVP :");
 
 switch($age_personne){
     case $age_personne >=3 && $age_personne<=12 :
